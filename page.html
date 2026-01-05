@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Accueil</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #ffffff;
+      min-height: 100vh;
+    }
+
+    header {
+      padding: 40px 10%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+      letter-spacing: 2px;
+    }
+
+    nav a {
+      margin-left: 25px;
+      text-decoration: none;
+      color: #ffffff;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #00d4ff;
+    }
+
+    .hero {
+      height: calc(100vh - 120px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 0 10%;
+    }
+
+    .hero h2 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto 30px;
+      line-height: 1.6;
+    }
+
+    .hero a {
+      display: inline-block;
+      padding: 12px 30px;
+      background: #00d4ff;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 30px;
+      transition: transform 0.3s, background 0.3s;
+    }
+
+
+    .hero a:hover {
+      background: #ffffff;
+      transform: scale(1.05);
+
+    }
+
+    footer {
+      text-align: center;
+
+      padding: 20px;
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+  </style>
+
+</head>
+<body>
+  <header>
+    <h1>Mon Portfolio</h1>
+
+    <nav>
+      <a href="#">Accueil</a>
+      <a href="#">À propos</a>
+      <a href="#">Projets</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+
+  <section class="hero">
+    <div>
+      <h2>Bonjour, je suis Développeur Web</h2>
+      <p>
+        Je conçois des sites web modernes, performants et responsives.
+        Découvrez mes projets, mes compétences et mon parcours.
+      </p>
+      <a href="#">Voir mes projets</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 – Tous droits réservés
+  </footer>
+</body>
+</html>
+
